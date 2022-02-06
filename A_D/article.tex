@@ -1,0 +1,72 @@
+\documentclass{article}
+\usepackage{float}
+
+\title{\textbf{Fit Movement}}
+\date{\today}
+\author{Phuong Huynh \and Ondrej Hruby \and Plamen Iliev \and Jean-Louis Klein \and Sylvan Stoffels}
+
+\begin{document}
+\maketitle
+\section*{Product information}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|l|l|}
+    \hline
+    \textbf{Name} & Fit Movement \\ \hline
+    \textbf{Target device} & Phone/Phablet \\ \hline
+    \textbf{Target Android Version} & Android 10 (Q) \\ \hline
+    \textbf{Minimal Android Version} & Android 9 (Pie) \\ \hline
+    \textbf{Permissions neccesary} & \begin{minipage}[t]{0.5\textwidth}
+                                        \begin{itemize}
+                                            \item Access Location
+                                            \item Access internet
+                                            \item Access and use camera
+                                            \item Read and write from storage
+                                        \end{itemize} 
+                                     \end{minipage} \\ \hline
+    \end{tabular}
+\end{table}
+\section*{Introduction}
+Fit Movement is the new trend in social media-land which focusses itself entirely the exercisers, gym owners and fitness. This application connects you with everyone and everything you need to keep your goals and live a healthy lifetstyle. With Fit Movement you are able to connect other fitness enthousiasts, gym owners, supermarkets, dieticians, farmers markets, physiotherapists and everything you can imagine to do what you want to do. This application enables you to share pictures and posts about your accomplishments to your friends. 
+Future versions will even be able to let the earlier mentioned groups take contact with you (if you want that), so you can make use of special discounts and offers, only available to Fit Movement-members.
+
+Are you somewhere and you need to fitness? Fit Movements got you covered. With one view on our map, you can see all gyms which are affiliated with our movement. Are you the type of person to forget when you need to excersise, no worries. Enter when you want to exersise and the Fit Movement-app will give you reminders to excersise.\\
+
+\section*{Reflection}
+\subsection*{Phuong Huynh}
+I have acquired new knowledge while working on the project 4 with my group. I have learned about loopback4 and creating wireframes for android application. Besides, I also learned from my group members how to set up the middleware in order to create a communication between the application and the database.
+
+From the begining, our group splitted the analysis and design tasks for every memeber. When we started doing implemented part, my task was doing the camera function. I have learned how to use the camera for taking the picture, saving the picture to phone gallery, and loading picture to the image view. The idea is to use the camera function for profile picture. After that, my teammate, Plamen, converted the picture into string in order to save it to the database.
+
+The project gives us the oppotunities to work in a team where we can learn from each other. We were kind of behind comparing to other groups at the beginning because we had some issue with the middleware. However, we managed to finish the required tasks by assignning everyone for a specific tasks. Then, we shared to the others what we have implemented.
+
+\subsection*{Ondrej Hruby}
+I have chosen the colors that we have used and I have set the vision of how the app should look like. I created the wireframes for the profile, login and workout schedule page and the menu on the profile page to go the workout schedule, camera and the map. I have also created the notification channel and the workout notifications overall. 
+Beside that I have also created the trailer video for our application and tested the application in the field.
+We have also worked together as a group on several Analysis and Design artefacts and also some artefacts from the Implementation.
+What I would do differently?
+I would most probably start implementing the app with Firebase, because in my opinion it would save us a lot of time implementing for example the authentication and push notifications, but we have found out about Firebase from other groups and have already some stuff implemented at that time, so we decided not to change everything from the scratch with the limited time we had. I would also probably make shorter and more pre-planned scrum meetings as our scrum meetings were quite long and we had to work on the project in our free time a lot.
+I really enjoyed this project and I am glad that I have learned how to work with Android Studio and Mobile App Development, because I am also planning to create an App on my own in the near future.
+
+\subsection*{Plamen Iliev}
+Out of everything that the group did, I mostly put my time in the Loopback4 / IBM cloud side of the application. Originally, we had a issue with pushing our middleware (Loopback app) to the cloud, that problem was resolved but recently it appeared again so I am continuing my research on it.
+Another thing I did was working on the camera function a bit, including writing methods for encoding and decoding a bitmap into a base64 string and back. 
+Things I would do differently, I would probably find a more stable cloud system with less limitations. IBM has a lot of memory and usage constraints that I found annoying, a lot of functions that could have saved us hours were behind a paywall. Another thing would probably be spending less time in one particular area of the application, so I can learn better what goes on in other areas. All in all, I found that mobile app development isn't something I would be that interested in. The mobile world is quite large and perhaps I might find an area I will show more interest in.
+
+\subsection*{Jean-Louis Klein}
+My work in the group was mainly in two areas: backend and management. Although I do know how to work with frontend, my strengths lie mainly in those fields, so that is why I took up those tasks. My official duties for the group were being the product owner (which in our situation meant that I kept track of our priorities), being the branch manager and the back-up scrum master (as Sylvan was the main one). These duties were all besides my regular development work. As a developer I focussed on the backend of the app, the server which runs on NodeJS and was responsible for creating and managing the MySQL-database. 
+
+When we got together as a group, we started with analysing the project and designing small parts of it. After some days of analysis and design we started with the implementation. From the start of the implementation we had a big drawback: we could not push our work to the IBM-server. This took weeks (maybe even months) until eventually Mr Schwake helped us with it. This drawback slowed us down a lot and after we finally could continue, it was certain that we would finish the project in time as we officially designed it. A thing I have learned from this is that it would be beneficial if we asked for help sooner. One thing I do have to note is that this problem likely only existed because we are doing a school project. Being we are told which tools and resources to use (in this case IBM and Loopback4), it limits us in our possibilities. If we were an actual company I would have called customer service much earlier or even switched hosting service. 
+
+Another thing I learned from this project is the benefit of branches when working in an agile way. Our way of working (or at least: that is how I thought this out) was that each use case would be developed on a seperate branch. When a branch is done, and only when it is done, it would be merged to the master branch. If neccesary, these new changes would be pushed to the rented server. The downside of this strategy is that it brings a lot of extra management work and possible problems when merging the branches. The upside of this, however, is that branches can work independently from each other, there is always a working master branch (which a potentional client could use) and developers would not get into each others way. That last part would even have prevented delays in the earlier project: other people could work on seperate use cases while some people would fix the problem with the server. Unfortunately, I only found out about branches after most of the project was already over, but in the future I would definitely use the branches from the start.
+\subsection*{Sylvan Stoffels}
+Working on this project has learned me how to handle an advanced API, because I didn't have the chance to work on that in project 2. For this project we used the APIs of Google. We managed to get them to work, but next time I will try different a different API. That is because the limitations of the free version of Google API, worked against the progress of the project.
+Of all the project groups I had, was this one most laid-back groups. Not as in we didn't work a lot, but as in that every one was very understanding to each other. For example: if something wasn't finished, we looked at it together and tried to help each other until it's fixed. 
+There was one problem we coundn't fix with this method, which had to do with the cloud. Because of this error we could not continue with our main task, so we devided the tasks that weren’t high on the priority list. Meanwhile, two people of the group focussed bugfixing. Personaly, I think that was the right choice: this way we managed to decrease how much time we would lose.
+
+With the help of Mr Schwake, we managed to fix the bug en continue our work. From that moment we started to work with branches to speed up our work. This worked fine at the beginning, but after a while it was the cause of some minor issues, which broke the application. The git merge-function also merged files that aren't relevant for the function that we were working on. This meant that some of the newly commited work was overwritten.
+
+The things that I would have done differently: we should have gone to the teachers earlier. We did ask a few student-assistants, but they could not help us. That probably could have saved us 1-2 weeks. Personally, I need to read the documentation more carefully, instead of just experimenting, because experimenting can take more time than carefully reading the documentation. If I would have read the documentation more carefully, it would have saved me time when implementing.
+
+\end{document}

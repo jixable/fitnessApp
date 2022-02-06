@@ -1,0 +1,36 @@
+----Admin----
+As an admin I must be able to remove accounts who do not follow the guidelines.
+As an admin I must be able to remove comments and photos which are not acceptable by the guidelines.
+As an admin I should be able to remove an ad which doesn't follow the guidelines.
+As an admin I must be able to view a report about abuse to be able to remove the person/ad
+As an admin I must be able to handle reports about abuse to be able to remove a person/ad
+As an admin I could be able to give admin privileges to others to make sure I can do work
+As an admin I could be able to revoke admin privileges to others when they are not needed or reported
+As an admin I could be able to view gym registrations to decide to add the gym in question or not
+As an admin I could be able to mute a user for a period of time to stop behavior not allowed by the guidelines.
+
+
+----Advertiser----
+As an advertiser I must be able to upload my ad campaign to be able to attract customers
+As an advertiser I must be able to update my current ad campaing with different ads to attract customers
+As an advertiser I must be able to remove my ad campaing after it has served it's purpose
+As an advertiser I would like to pay for space for my ad campaing to be able to upload it to the app
+
+
+
+----User----
+As a user I should be able to register myself to gain access to the app
+As a user I should be able to log in to my account to use the app
+As a user I should be able to submit a report against something that is inappropriate because it could be possibly illeagal and/or abuse
+As a user i should be able to post a picture to my social feed to show my progress or to set my as my avatar
+As a user I should be able to post text on social feeds to ask questions to others or answer questions
+As a user I should be able to add other users as friends to form a group for fitness together 
+As a user I should be able to delete my account  if I don't want to use it anymore
+As a user I should be able to view the available gyms on the map to see where I can go
+As a user I should be able to view other user's profile to see their workout routines
+As a user I should be able to change my password if I feel like it isn't secure enough
+As a user I should be able to set my workout schedule to the calendar to plan my workout
+As a user I should be able to track my workout schedule from the calendar to see when I have to work out
+
+----Everybody----
+As an unregistered user I should be able to submit my gym to be added to the map to get people in

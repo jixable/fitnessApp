@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "700411877840",
+    "project_id": "fitapp-3824a",
+    "storage_bucket": "fitapp-3824a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700411877840:android:2726f2d65e45fd7e5bc1d5",
+        "android_client_info": {
+          "package_name": "com.vogella.android.fitmovement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700411877840-qfnl6pflc10ai3o6m0fmcdrlg7kvl6gd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzE0lK_EcbFP6RXGEFRxMR4GHW5blqyUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700411877840-qfnl6pflc10ai3o6m0fmcdrlg7kvl6gd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
