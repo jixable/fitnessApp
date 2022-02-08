@@ -1,4 +1,4 @@
-# fitnessApp
+# fitnessApp - Workout Log & Fitness Social Media App
 Fitness Social Media and Workout Log App 
 (Java, node.js, LoopBack, typescript)
 
@@ -12,7 +12,10 @@ Version 1.0:
 - Division between Photos and All Media
 - Height, Weight, Folors and following count
 
-Future Versions: 
+Next step: 
+- Change it to React Native
+
+Future Versions (in React Native): 
 - Workout Log
   - Add Exercises to Workout Days
   - Add Number of Sets and Reps 
@@ -28,4 +31,3 @@ Future Versions:
 - Reshare picture or video to other social media platforms (Facebook, Instagram, Pinterest, Twitter,...)
 - Stories 
 - Push notifications when CalistFitness uploads a new video :D
-- Add React Native
